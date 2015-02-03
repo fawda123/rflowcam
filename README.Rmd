@@ -1,4 +1,7 @@
-## rflowcam
+---
+title: "README"
+output: html_document
+---
 
 This is a little package for working with FlowCAM data.
 
@@ -10,10 +13,13 @@ library(devtools)
 install_github('fawda123/rflowcam')
 library(rflowcam)
 ```
-
 Try importing a data file:
 
-#' fl_in <- system.file('P02_Jan2015.lst', package = 'rflowcam')
-#' dat <- import_flowcam(fl_in)
-#' dat
-See the documentation for available functions and examples.
+```{r, echo=F, warning=F}
+devtools::load_all('M:/docs/rflowcam')
+```
+```{r}
+fl_in <- system.file('P02_Jan2015.lst', package = 'rflowcam')
+dat <- import_flowcam(fl_in)
+dat
+```
