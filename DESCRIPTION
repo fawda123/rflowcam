@@ -12,7 +12,9 @@ Imports:
     dplyr,
     magrittr
 Depends:
-    R (>= 3.1.2)
+    R (>= 3.1.2),
+    dplyr,
+    magrittr
 Authors@R: person(given = "Marcus W.", family = "Beck",
     role = c("aut","cre"),
     email = "mbafs2012@gmail.com")

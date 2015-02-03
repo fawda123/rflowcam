@@ -15,11 +15,11 @@ library(rflowcam)
 ```
 Try importing a data file:
 
-```{r, echo=F, warning=F}
-devtools::load_all('M:/docs/rflowcam')
+```{r, echo = F, message = F}
+devtools::load_all('M:/docs/rflowcam', quiet = T)
 ```
 ```{r}
-fl_in <- system.file('P02_Jan2015.lst', package = 'rflowcam')
+fl_in <- system.file('sample_data.lst', package = 'rflowcam')
 dat <- import_flowcam(fl_in)
 dat
 ```

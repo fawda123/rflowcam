@@ -17,14 +17,14 @@ import_flowcam(fl_in, times = TRUE, tzone = "America/Regina")
 a \code{\link[dplyr]{tbl}} of formatted FlowCAM data with 57 columns
 }
 \description{
-Import raw. lst data
+Import raw .lst data
 }
 \details{
 All columns are converted to numeric values on import, except the timestamp and collage_file columns.  The default behavior is to convert the timestamp column to POSIXct.  Note that resolution of the timestamp is lost because seconds are rounded to integer values.  The default timezone in \code{tzone} does not consider daylight savings.
 }
 \examples{
 ##
-fl_in <- system.file('P02_Jan2015.lst', package = 'rflowcam')
+fl_in <- system.file('sample_data.lst', package = 'rflowcam')
 dat <- import_flowcam(fl_in)
 dat
 }

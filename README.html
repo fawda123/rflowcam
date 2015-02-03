@@ -71,8 +71,7 @@ library(devtools)
 install_github('fawda123/rflowcam')
 library(rflowcam)</code></pre>
 <p>Try importing a data file:</p>
-<pre><code>## Loading rflowcam</code></pre>
-<pre class="r"><code>fl_in &lt;- system.file('P02_Jan2015.lst', package = 'rflowcam')
+<pre class="r"><code>fl_in &lt;- system.file('sample_data.lst', package = 'rflowcam')
 dat &lt;- import_flowcam(fl_in)
 dat</code></pre>
 <pre><code>## Source: local data frame [7,937 x 57]
