@@ -9,12 +9,9 @@ Description: Tools to import, format, and analyze FlowCAM data for water quality
 License: CC0
 LazyData: TRUE
 Imports:
-    dplyr,
-    magrittr
+    dplyr
 Depends:
-    R (>= 3.1.2),
-    dplyr,
-    magrittr
+    R (>= 3.1.2)
 Authors@R: person(given = "Marcus W.", family = "Beck",
     role = c("aut","cre"),
     email = "mbafs2012@gmail.com")

@@ -12,6 +12,8 @@
 #'
 #' @export
 #'
+#' @import dplyr
+#'
 #' @return a \code{\link[dplyr]{tbl}} of formatted FlowCAM data with 57 columns
 #'
 #' @examples
